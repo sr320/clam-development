@@ -1,6 +1,8 @@
 ---
 title: "01-data-explore"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r}
