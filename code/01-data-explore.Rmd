@@ -68,9 +68,9 @@ theme_bw()+theme(panel.grid.major = element_blank(),
 
 
 ```{r}
-ggplot(clam, aes(x = Female.Tissue.Grade, y = Male.Tissue.Grade)) +
+ggplot(clam, aes(x = Female.Tissue.Grade, y = Male.Tissue.Grade, color = Width..cm.)) +
   geom_point() +
-  geom_jitter()
+  geom_jitter(size = 7, width = 0.1, height = 0.4, alpha = 0.5)
 ```
 
 
